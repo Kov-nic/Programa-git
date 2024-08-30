@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .iconos-navegacion {
+    display: flex;
+  }
+  
+  .icono {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .icono:last-child {
+    margin-right: 0; /* Elimina el margen del último icono */
+  }
+  
+  .icono img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .barra-busqueda {
+    display: flex;
+    align-items: center;
+  }
+  
+  .barra-busqueda input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    flex-grow: 1;
+  }
+  
+  .barra-busqueda button {
+    border: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .producto {
+    width: 250px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .producto img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Asegúrate de especificar un valor y cerrar la declaración */
+  }
+  
